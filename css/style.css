@@ -1,0 +1,172 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Comic Neue',
+    cursive;
+
+}
+
+header{
+    background-color: #323232;
+    height: 60px;
+}
+
+#brand{
+    display: inline-block;
+    margin-left: 35px;
+    color: white;
+    font-size: 21px;
+}
+#brand h3{
+    margin-top: 18px;
+}
+
+span{
+    color: #f78259;
+}
+
+nav{
+    float: right;
+    margin: 5px 70px 20px 20px;
+}
+
+ul{
+    list-style: none;
+}
+
+ul li{ 
+    display: inline-block;
+    padding: 0 18px;
+}
+ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    color: white;
+}
+
+#showcase{
+    background-image: url(../img/showcase.jpg);
+    height: 200px;
+    text-align: center;
+    padding-top: 10px;
+    color: white;
+}
+
+#showcase .container{
+    margin: 40px auto;
+}
+.showcase-heading{
+    font-size: 40px;
+}
+
+.showcase-paragraph{
+    font-size: 23px;
+}
+
+#newsletter{
+    background-color: #323232;
+    height: 60px;
+}
+
+.newsletter-heading{
+    margin: 20px 0 0 100px;
+    display: inline-block;
+    color: white;
+}
+
+.newsletter-form{
+    float: right;
+    margin: 13px 100px 0 0;
+}
+
+.newsletter-form input{
+    height: 30px;
+    width: 250px;
+}
+
+.newsletter-form button{
+    height: 36px;
+    width: 100px;
+    background-color: tomato;
+    border-color: tomato;
+    color: white;
+}
+
+#boxes{
+    display: inline-block;
+    margin: 50px 0 20px 150px;
+}
+
+.box{
+    float: left;
+    margin-left: 100px;
+    text-align:center;
+}
+
+.box img{
+    width: 100px;
+    height: 100px;
+}
+.box p{
+    max-width: 200px;
+    line-height: 1.5;
+}
+
+footer{
+    height:70px;
+    text-align: center;
+    background-color: tomato;
+    padding: 2px 0;
+    color: white;
+    font-size: 20px;
+}
+
+
+/*************Media Queries************/
+
+@media (max-width: 768px){
+    header{
+        height: 140px;
+    }
+    #brand{
+        display: block;
+        text-align: center;
+        padding-top: 20px;
+        margin-left: 0;
+        
+    }
+    #brand h3{
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    nav{
+        float: none;
+    }
+    
+    ul{
+        text-align: center;
+    }
+
+    ul li{
+       display: block;
+    }
+     #newsletter {
+         text-align: center;
+         height: 120px;
+     }
+     .newsletter-heading {
+         margin-left: 0;
+         
+         
+     }
+     .newsletter-form {
+         float: none;
+         margin-right: 0;
+     }
+
+     #boxes {
+        
+         margin: 50px 0 20px 0px;
+     }
+}
